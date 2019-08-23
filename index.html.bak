@@ -88,7 +88,7 @@
 					<div class="col-sm-3 col-md-3 col-lg-2" style="margin-left:10px">
 						<div class="img-aboutus">
 							<div class="wow fadeIn animated animated" data-wow-delay="0.2s" style="visibility: visible;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
-								<img src="./assets/QingLi.jpg" width="300px" alt="" class="img-responsive img-rounded">
+								<img src="./assets/Jiawei.jpg" width="300px" alt="" class="img-responsive img-rounded">
 							</div>
 						</div>
 					</div>							
@@ -101,7 +101,7 @@
                             <img src="./assets/cv.jpg" width="15" height="15" alt=""><a href="publications/CV.pdf"> Curriculum Vitae</a><br>
 						<p></p>
 						<p>
-							I am currently a second-year Master student in Department of Engineering Mechanics, Tsinghua University, advised by Prof. Ge-Xue Ren. My research interests include but are not limited to: vision-and-language (image/video captioning, visual question answering), activity and action recognition in video, deep learning.
+							I am currently a second-year Master student in Department of Engineering Mechanics, Tsinghua University, advised by Prof. Ge-Xue Ren. My research interests include but not limited to: Multibody dynamics and control, Robotics, Mechanical system (Gear, Bearing), Computational mechanics, Autonomous vehicles, Multi-agent/Multi-robot.
 						</p>
 						
 					</div>
@@ -643,7 +643,7 @@
 				<div class="col-md-12 col-lg-12">
 					<div class="wow fadeIn animated" data-wow-delay="0.4s" style="visibility: visible;-webkit-animation-delay: 0.4s; -moz-animation-delay: 0.4s; animation-delay: 0.4s;">
 						<div class="btn-circle-scroll">
-							<a href="http://liqing-ustc.github.io#header-banner" class="btn-circle">
+							<a href="https://jia-wei-liu.github.io#header-banner" class="btn-circle">
 								<i class="fa fa-angle-double-up animated"></i>
 							</a>
 						</div>
