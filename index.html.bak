@@ -217,11 +217,6 @@
 							<p>
 								<i><strong>Jia-Wei Liu</strong></i>, Jia-Peng Liu, Jia-Lun Yao, Ge-Xue Gen. <br>
 								ECCOMAS 2019 Multibody Dynamic Conference, Duisburg, Germany.<br>
-								<a href="" class="label label-success">PDF</a>
-								<a href="" class="label label-primary">BibTex</a>
-								<a href="https://ivc.ischool.utexas.edu/VizWiz/" class="label label-info">Project</a>
-								<a href="" class="label label-info">Code</a>
-								
 							</p>
 						</blockquote>
 					</div>
@@ -259,11 +254,11 @@
 	</section>
 	<!-- /.publications -->
 	
-	<!-- workshops -->
-    <section class="testimonials" id="workshops">
+	<!-- Work Experiences -->
+    <section class="testimonials" id="Work Experiences">
 		<div class="container">
 			<div class="wow bounceInLeft animated" data-wow-delay="0.1s" style="visibility: visible;-webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;"> 
-				<h2>Workshops</h2> 
+				<h2>Work Experiences</h2> 
 			</div>		
             <!-- row -->
 			<div class="row" style="margin-left:10px">
