@@ -7,7 +7,7 @@
     <meta name="author" content="Jiawei Liu">
 
     <title>Jiawei Liu</title>
-    <link rel="icon" href="./assets/Jiawei-Germany.jpg">
+    <link rel="icon" href="./assets/Jiawei.jpg">
     <!-- Bootstrap Core CSS -->
     <link href="./assets/bootstrap.min.css" rel="stylesheet" type="text/css">
 
@@ -88,7 +88,7 @@
 					<div class="col-sm-3 col-md-3 col-lg-2" style="margin-left:10px">
 						<div class="img-aboutus">
 							<div class="wow fadeIn animated animated" data-wow-delay="0.2s" style="visibility: visible;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
-								<img src="./assets/Jiawei-Germany.jpg" width="300px" alt="" class="img-responsive img-rounded">
+								<img src="./assets/Jiawei.jpg" width="300px" alt="" class="img-responsive img-rounded">
 							</div>
 						</div>
 					</div>							
