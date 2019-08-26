@@ -1,4 +1,4 @@
-@inproceedings{liu2019helicalgear,
+@inproceedings{Liu2019helicalgear,
   title={Dynamic characteristics of helical gear based on Arbitrary Lagrangian Eulerian formulation},
   author={Liu, Jia-Wei and Liu, Jia-Peng and Yao, Jia-Lun and Ren, Ge-Xue},
   booktitle={ECCOMAS 2019 Multibody Dynamic Conference},
