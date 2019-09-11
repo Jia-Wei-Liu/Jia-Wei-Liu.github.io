@@ -99,6 +99,7 @@
 						<p></p>
 							<img src="./assets/email.jpg" width="15" height="15" alt=""><a href="mailto:jiawei.liu.tsinghua@gmail.com"> jiawei.liu.tsinghua@gmail.com</a> <br> 
                             <img src="./assets/cv.jpg" width="15" height="15" alt=""><a href="publications/CV.pdf"> Curriculum Vitae</a><br>
+                            <img src="./assets/transcript.png" width="15" height="15" alt=""><a href="publications/Transcript.pdf"> Transcript</a><br>
 						<p></p>
 						<p>
 							I am currently a second-year Master student in Department of Engineering Mechanics, Tsinghua University, advised by Prof. Ge-Xue Ren. My research interests include but not limited to: Multibody dynamics and control, Robotics, Mechanical system, Computational mechanics, Autonomous vehicles and Multi-agent system.
@@ -433,7 +434,8 @@
 								Research leader, Tsinghua University.
                                 <ul>
                                     <li>Established the FE models of four pairs of helical gears with different helix angles and two pairs of bevel gears using Solidworks and Hypermesh.</li>
-                                    <li>The dynamic transmission characteristics with correlation to three dimensional contacts and helix angles were analyzed, for which an algorithm to compute contact lines was proposed.</li>
+                                    <li>Developed the corresponding ALE gears for higher efficiency.</li>
+                                    <li>Analyzed the dynamic transmission characteristics with correlation to three dimensional contacts and helix angles, for which an algorithm to compute contact lines was proposed.</li>
                                 </ul>
 							</p>
 						</blockquote>
