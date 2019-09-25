@@ -99,7 +99,7 @@
 						<p></p>
 							<img src="./assets/email.jpg" width="15" height="15" alt=""><a href="mailto:jiawei.liu.tsinghua@gmail.com"> jiawei.liu.tsinghua@gmail.com</a> <br> 
                             <img src="./assets/cv.jpg" width="15" height="15" alt=""><a href="publications/CV.pdf"> Curriculum Vitae</a><br>
-                            <img src="./assets/transcript.png" width="15" height="15" alt=""><a href="publications/Transcript_Jiawei Liu.pdf"> Transcript</a><br>
+                            <img src="./assets/transcript.png" width="15" height="15" alt=""><a href="publications/Transcript_Jiawei Liu_NWPU.pdf"> Transcript</a><br>
 						<p></p>
 						<p>
 							I am currently a second-year Master student in Department of Engineering Mechanics, Tsinghua University, advised by Prof. Ge-Xue Ren. My research interests include but not limited to: Multibody dynamics and control, Robotics, Mechanical system, Computational mechanics, Autonomous vehicles and Multi-agent system.
@@ -160,7 +160,7 @@
 								Master of Science in Tsinghua University (THU), China, 2018.09 - Present (expected to graduate in 2020.07)
 							</h4>
 							<p>
-								Major: Dynamics and Control in Department of Engineering Mechanics, Advisor: Prof. Gexue Ren. Overall GPA: 3.70/4.0. <br>
+								Major: Dynamics and Control in Department of Engineering Mechanics, Advisor: Prof. Gexue Ren. Overall GPA: 3.69/4.0. <br>
 							</p>
 						</blockquote>
 					</div>
@@ -245,7 +245,7 @@
 								<i><strong>Jia-Wei Liu</strong></i>, Jia-Peng Liu, Jia-Lun Yao, Ge-Xue Gen. <br>
 								<strong>ECCOMAS 2019 Multibody Dynamic Conference, Duisburg, Germany</strong>. (Accepted)<br>
 								<a href="./publications/EXTENDED_ABSTRACT_ECCOMAS2019.pdf" class="label label-success">PDF</a>
-								<a href="./publications/EXTENDED_ABSTRACT_ECCOMAS2019.txt" class="label label-primary">BibTex</a>
+								<a href="./publications/EXTENDED_ABSTRACT_ECCOMAS2019.bib" class="label label-primary">BibTex</a>
 							</p>
 						</blockquote>
 					</div>
