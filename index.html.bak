@@ -373,7 +373,7 @@
 							<p>
 								Research leader, Tsinghua University.
 								<ul>
-								    <li>Proposing a novel ALE planetary gear set to reduce the degrees of freedom (DOFs) of the system from 10E6 to 10E3 ~ 10E4</li>
+								    <li>Proposing a novel ALE planetary gear set to reduce the degrees of freedom (DOFs) of the system from 10E7 to 10E4</li>
 								    <li>By splitting the planet gear into two ALE gears, each ALE planet gear only contacts with the ring or sun gear.</li>
 								    <li>We have verified the accuracy and efficiency of this method and the paper on this work is under preparation.</li>
                 </ul>
@@ -396,7 +396,7 @@
 								Research leader, Tsinghua University.
                                 <ul>
                                     <li>Proposed the ALE helical gear, where low-frequency approximation (LFA) technique and ALE formulation were adopted to reduce the system DOFs from 10E6 to 10E3 ~ 10E4.</li>
-                                    <li>Simplified the inertial terms in dynamic equations and adopted a high-efficiency contact algorithm based on hierarchical bounding box tree (OBB-tree).</li>
+                                    <li>Simplified the inertial terms in dynamic equations and adopted a high-efficiency contact algorithm based on hierarchical oriented bounding box tree (OBB-tree).</li>
  																		<li>Three-dimensional Timoshenko beam elements in Lagrangian formation were adopted to discretize the shaft.</li>
  																		<li>The proposed method was implemented using C++ and one order of magnitude acceleration of simulation time was achieved with high accuracy, compared with commercial nonlinear finite element software ABAQUS.</li>
                                 </ul>
