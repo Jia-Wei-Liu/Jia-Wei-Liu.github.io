@@ -123,6 +123,8 @@
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">					
 					<div class="col-sm-12">
 						<ul>	
+							
+							<li><p><strong>2021.01.</strong> I am awarded with <strong>DATA SCIENCE NGS SCHOLARSHIP and started my PhD career in National University of Singapore</strong>.</p></li>							
 							<li><p><strong>2020.06.</strong> I am awarded with <strong>Outstanding graduate of School of Aerospace Engineering, Tsinghua University</strong>.</p></li>
 							<li><p><strong>2019.10.</strong> I am awarded with <strong>Scholarship of Second Prize in Tsinghua University</strong>, which is awarded to TOP 5% students in Tsinghua University.</p></li>
 							<li><p><strong>2019.09.</strong> I start to work as a Teaching Assistant for Theoretical Mechanics in Tsinghua University for the second time.</p></li>
@@ -399,9 +401,9 @@
 							<p>
 								Research leader, Tsinghua University.
 								<ul>
-								    <li>Proposing a novel ALE planetary gear set to reduce the degrees of freedom (DOFs) of the system from 10E7 to 10E4</li>
-								    <li>By splitting the planet gear into two ALE gears, each ALE planet gear only contacts with the ring or sun gear.</li>
-								    <li>We have verified the accuracy and efficiency of this method and the paper on this work is under preparation.</li>
+								    <li>Proposed a novel ALE planetary gear set to reduce the degrees of freedom (DOFs) of the system from 10E7 to 10E4</li>
+								    <li>By splitting the planet gear into two ALE gears, each ALE planet gear only contacts with the ring or sun gear, making it feasible to develop ALE planetary gear set.</li>
+								    <li>Five times acceleration of simulation time with comparable simulation accuracy was achieved compared with ABAQUS.</li>
                 </ul>
 							</p>
 						</blockquote>
