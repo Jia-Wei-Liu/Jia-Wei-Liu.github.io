@@ -371,7 +371,30 @@
 					<div class="col-sm-9 col-md-9 col-lg-9">
 						<blockquote style="margin-bottom:5px">
 							<h4>
-								Model order reduction method for simulation of planetary gear set based on Arbitrary Lagrangian Eulerian (ALE) formulation, 2018.10 - Present
+								Combining 3D geometry with deep learning for robust registration and retrieval, 2021.01 - 2021.11
+							</h4>
+							<p>
+								Research leader, National University of Singapore.
+								<ul>
+								    <li>Bulit a multi-view line detection dataset based on MegaDepth dataset.</li>
+								    <li>Proposed a weakly-supervised line detection framework using trifocal tensor based multi-view consistency.</li>
+								    <li>Proposed a domain adaptive line detection and description framework using homography warping consistency.</li>
+                </ul>
+							</p>
+						</blockquote>
+					</div>
+				</div>
+			</div>
+			<!-- ./row -->	
+            <br>
+            <!-- row -->
+            			<!-- row -->
+			<div class="row" style="margin-left:10px">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">					
+					<div class="col-sm-9 col-md-9 col-lg-9">
+						<blockquote style="margin-bottom:5px">
+							<h4>
+								Model order reduction method for simulation of planetary gear set based on Arbitrary Lagrangian Eulerian (ALE) formulation, 2018.10 - 2020.07
 							</h4>
 							<p>
 								Research leader, Tsinghua University.
