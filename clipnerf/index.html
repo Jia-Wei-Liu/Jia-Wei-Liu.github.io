@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CLIP-NeRF: Text-and-Image Driven Manipulation of Neural Radiance Fields</title>
+    <!-- Bootstrap -->
+    <link href="./css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="./css/project.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+  </head>
+  
+  <!-- cover -->
+  <body><section>
+    <div class="jumbotron text-center mt-0">
+      <div class="container">
+	  <div class="section logos" style="text-align:center">
+      <IMG src="./images/cityu.svg" height="80" border="0">
+      </td>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+      <IMG src="./images/snap-logo.svg" height="80"
+          border="0"></td>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+      <IMG src="./images/usc.svg" height="80" border="0"></td>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+      <IMG src="./images/Microsoft_logo.svg" height="60" border="0">
+      </td>
+    </div></p>
+          <div class="col-12">
+            <h2>CLIP-NeRF: Text-and-Image Driven Manipulation of Neural Radiance Fields (CVPR2022)
+            </h2>
+            <!-- <h4 style="color:#5a6268;">Arxiv 2022</h4> -->
+            <hr>
+            <h6>
+                <div class="authors">
+					<a href="https://cassiepython.github.io/" target="_blank">Can Wang</a><sup> 1</sup>&#160;&#160;
+					<a href="https://mlchai.com/" target="_blank">Menglei Chai</a><sup> 2</sup>&#160;&#160;
+					<a href="http://mingminghe.com/" target="_blank">Mingming He</a><sup> 3</sup>&#160;&#160;
+					<a href="http://www.dongdongchen.bid/" target="_blank">Dongdong Chen</a><sup> 4</sup>&#160;&#160;
+					<a href="https://liaojing.github.io/html/" target="_blank">Jing Liao</a><sup> 1*</sup>&#160;&#160;
+				</div>
+
+				<div class="affiliations">
+					<sup>1</sup>City University of Hong Kong&#160;&#160;
+					<sup>2</sup>Creative Vision, Snap Inc.&#160;&#160;
+					<sup>3</sup>USC Institute for Creative Technologies&#160;&#160;
+					<sup>4</sup>Microsoft Cloud AI&#160;&#160;
+					<sup>*</sup>Corresponding Author&#160;&#160;
+				</div>
+                <p></p>
+            <div class="row justify-content-center">
+              <div class="column">
+                  <p class="mb-5"><a class="btn btn-large btn-light" href="https://arxiv.org/abs/2112.05139" role="button" target="_blank">
+                    <i class="fa fa-file"></i> Paper</a> </p>
+              </div>
+              <div class="column">
+                  <p class="mb-5"><a class="btn btn-large btn-light" href="https://github.com/cassiePython/CLIPNeRF" role="button" target="_blank">
+                    <i class="fa fa-github-alt"></i> Code</a> </p>
+              </div>
+            </div>
+
+          </h6></div>
+        </div>
+      </div>
+    
+  </section>
+
+
+  <!-- abstract -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h3>Abstract</h3>
+            <hr style="margin-top:0px">
+            
+            <div class="row" style="margin-bottom:5px">
+              <div class="col" style="text-align:center">
+                <img class="thumbnail" src="./images/teaser.gif" style="width:100%; margin-bottom:20px">
+    
+              </div>
+    
+            </div>
+			
+          <p class="text-left">
+            We present CLIP-NeRF, a multi-modal 3D object manipulation method for neural radiance fields (NeRF). By leveraging the joint language-image embedding space of the recent Contrastive Language-Image Pre-Training (CLIP) model, we propose a unified framework that allows manipulating NeRF in a user-friendly way, using either a short text prompt or an exemplar image. Specifically, to combine the novel view synthesis capability of NeRF and the controllable manipulation ability of latent representations from generative models, we introduce a disentangled conditional NeRF architecture that allows individual control over both shape and appearance. This is achieved by performing the shape conditioning via applying a learned deformation field to the positional encoding and deferring color conditioning to the volumetric rendering stage. To bridge this disentangled latent representation to the CLIP embedding, we design two code mappers that take a CLIP embedding as input and update the latent codes to reflect the targeted editing. The mappers are trained with a CLIP-based matching loss to ensure the manipulation accuracy. Furthermore, we propose an inverse optimization method that accurately projects an input image to the latent codes for manipulation to enable editing on real images. We evaluate our approach by extensive experiments on a variety of text prompts and exemplar images and also provide an intuitive interface for interactive editing.
+		  </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+
+  <!-- video -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+            <h3>Video</h3>
+            <hr style="margin-top:0px">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe width="640" height="360" src="./images/video.mp4" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <br>
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+            <h3>Part Results</h3>
+            <hr style="margin-top:0px">
+            <center>
+				<ul>
+					<li class="grid">
+						<div class="griditem">
+						<img src = "./images/1-1.gif"><br/>Source</a><br>
+						</div>
+					</li>
+					<li class="grid">
+						<div class="griditem">
+						<img src = "./images/1-2.gif"><br/>Orange flowers</a><br>
+						</div>
+					</li>
+					<li class="grid">
+						<div class="griditem">
+						<img src = "./images/1-3.gif"><br/>Yellow flowers</a><br>
+						</div>
+					</li>
+					<li class="grid">
+						<div class="griditem">
+						<img src = "./images/1-4.gif"><br/>Yellow flowers with green leaves</a><br>
+						</div>
+					</li>
+				</ul>
+				<ul>
+					<li class="grid">
+						<div class="griditem2">
+						<img src = "./images/2-1.gif"><br/>Source</a><br>
+						</div>
+					</li>
+					<li class="grid">
+						<div class="griditem2">
+						<img src = "./images/2-2.gif"><br/>Red excavator</a><br>
+						</div>
+					</li>
+					<li class="grid">
+						<div class="griditem2">
+						<img src = "./images/2-3.gif"><br/>Green excavator</a><br>
+						</div>
+					</li>
+					<li class="grid">
+						<div class="griditem2">
+						<img src = "./images/2-4.gif"><br/>Pink excavator</a><br>
+						</div>
+					</li>
+				</ul>
+				</center>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  
+
+<br>
+  <!-- citing -->
+  <div class="container">
+    <div class="row ">
+      <div class="col-12">
+          <h3>Citation</h3>
+          <hr style="margin-top:0px">
+              <pre style="background-color: #e9eeef;padding: 1.25em 1.5em"><code>
+@article{wang2021clip,
+  title={CLIP-NeRF: Text-and-Image Driven Manipulation of Neural Radiance Fields},
+  author={Wang, Can and Chai, Menglei and He, Mingming and Chen, Dongdong and Liao, Jing},
+  journal={arXiv preprint arXiv:2112.05139},
+  year={2021}
+}
+</code></pre>
+          <hr>
+      </div>
+    </div>
+  </div>
+    </div></body></html>
