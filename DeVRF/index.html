@@ -203,6 +203,17 @@
             </div>
   
           </div>
+    
+        <p class="text-left">
+          In the first stage, DeVRF learns a 3D volumetric canonical
+          prior (b) from multi-view static images (a). In the second stage, a 4D deformation field (d) is jointly
+          optimized from taking few-view dynamic sequences (c) and the 3D canonical prior (b). For ray points
+          sampled from a deformed frame, their deformation to canonical space can be efficiently queried from
+          the 4D backward deformation field (d). Therefore, the scene properties (i.e., density, color) of these
+          deformed points can be obtained through linear interpolation in the 3D volumetric canonical space,
+          and novel views (f) can be accordingly synthesized by volume rendering (e) using these deformed
+          sample points.
+    </p>
       </div>
     </div>
   </div>
